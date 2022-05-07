@@ -1,4 +1,4 @@
-# progr-webi-imperio
+# Imperio dos Sabores
 
 Site para um pizzaria desenvolvido em equipe, para a disciplina de Programação Web I de ADS.S4 - IFCE Canindé
 
