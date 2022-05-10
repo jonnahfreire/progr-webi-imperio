@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .header {
-    background-color: rgba(190, 190, 190, 0.2);
-
+    background-color: rgb(243, 243, 243);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +11,9 @@
     width: 100%;
 
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+
+    position: fixed;
 }
 
 .menu-opener-container {

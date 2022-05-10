@@ -1,4 +1,14 @@
-<app-header></app-header>
+<div class="header-container">
+  <app-header></app-header>
+</div>
 <div class="container-content">
- 
+  <div class="content-category">
+    <span class="category-name">Pizzas</span>
+  </div>
+
+  <div class="items-container">
+    <div *ngFor="let item of items">
+      <app-item [item]="item"></app-item>
+    </div>
+  </div> 
 </div>
