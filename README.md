@@ -13,31 +13,48 @@ Site para uma pizzaria desenvolvido em equipe, para a disciplina de Programaçã
 
 ### Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- Javascript
-- Typescript
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/default.asp)
+- [Javascript](https://www.javascript.com/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ### Frameworks
 
-- AngularJs
-### Uso
+- [AngularJs](https://angular.io)
+
+### Como executar
 
 Verifique se possui o NodeJs instalado.<br>
-No terminal, digite o comando <code>*Node -v*</code> para visualizar a versão do Node caso esteja instalado.
+No terminal, digite o comando <code>*Node -v*</code> para visualizar a versão do Node caso esteja instalado.<br>
 Caso não tenha, instalar o [Nodejs](https://nodejs.org) a partir do site oficial.
 
-Verifique se possui o **Angular** instalado, com o comando <code>*ng --version*</code>.<br>
-Caso tenha o Nodejs instalado, e não possua o **Angular**, instale com o comando
-<code>*npm install -g @angular/cli*</code>.
+Verifique se possui o **Angular** instalado, com o comando:
+```
+$ ng --version
+```
+Caso tenha o Nodejs instalado, e não possua o **Angular**, instale com o comando abaixo:
+```
+$ npm install -g @angular/cli
+```
 
-- git clone https://github.com/jonnahfreire/progr-webi-imperio.git
+Clone o projeto
+```
+$ git clone https://github.com/jonnahfreire/progr-webi-imperio.git
+```
 
-No terminal navegue até o diretório criado após clonar
-- <code>cd progr-webi-imperio</code>
+No terminal navegue até o diretório criado após clonar, digitando o comando abaixo:
+```
+$ cd progr-webi-imperio
+```
 
-Digite o comando abaixo para instalar as dependências do projeto
-- <code>npm install</code>
+Instale as dependências do projeto
+```
+$ npm install
+```
 
-Após a instalação, inicie o projeto com o comando <code>*ng serve*</code>. <br><br>
+Após a instalação, inicie o projeto com o comando:
+```
+$ ng serve
+```
+<br>
 And be happy!! :D
