@@ -1,6 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { pizzas } from './mock-pizzas';
+import service from './service';
+import { Pizza } from './pizza';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,16 @@ import { pizzas } from './mock-pizzas';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  items = pizzas; 
+  items: Pizza[] = [];
+
+  constructor () {
+    this.getPizzaItems();
+  }
+
+  getPizzaItems() {
+    const getPizzas = async () => {
+      this.items = await service.getPizzaItems();
+    }
+    getPizzas();
+  }
 }
