@@ -56,5 +56,10 @@ Após a instalação, inicie o projeto com o comando:
 ```
 $ ng serve
 ```
+
+Em outro terminal, dentro do diretório src/app/ inicie o json-server com o comando:
+```
+$ json-server --watch db.json
+```
 <br>
 And be happy!! :D
